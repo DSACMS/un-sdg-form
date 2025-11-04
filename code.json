@@ -2,16 +2,16 @@
   "name": "un-sdg-form",
   "version": "",
   "description": "Form for identifying projects that fulfill UN-SDGs",
-  "longDescription": "A web form where project teams fill out information about their project and creates a completed code.json for local download to add to repositories.",
+  "longDescription": "A web form where project teams fill out information about their project and the United Nations Sustainable Development Goals it aligns with. The form generates a file containing this metadata to include in repositories.",
   "status": "Production",
   "permissions": {
-    "license": [
+    "licenses": [
       {
-        "name": "CC0 1.0 Universal",
+        "name": "CC0-1.0",
         "URL": "https://github.com/DSACMS/codejson-generator/blob/main/LICENSE"
       }
     ],
-    "usageType": "openSource",
+    "usageType": ["openSource"],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
@@ -67,15 +67,15 @@
   "localisation": false,
   "repositoryType": "website",
   "userInput": false,
-  "fismaLevel": "Low",
+  "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
   "projects": [],
   "systems": [],
   "subsetInHealthcare": [
-    "Operational"
+    "operational"
   ],
   "userType": [
-    "Government"
+    "government"
   ],
   "maturityModelTier": 3
 }
